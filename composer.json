@@ -1,0 +1,29 @@
+{
+    "name": "takahashi-yugo/xhprof-flamegraph",
+    "description": "xhprof to flamegraph converter",
+    "type": "library",
+    "keywords": [
+        "flamegraph",
+        "xhprof"
+    ],
+    "authors": [
+        {
+            "name": "takahashi yugo",
+            "email": "yugotakahashi1988@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.x-dev"
+    },
+    "bin": [
+        "xhprof-flamegraph"
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
