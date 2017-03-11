@@ -6,6 +6,7 @@
         "flamegraph",
         "xhprof"
     ],
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "takahashi yugo",
