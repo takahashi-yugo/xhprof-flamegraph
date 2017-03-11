@@ -10,5 +10,9 @@ class RecordTest extends PHPUnit_Framework_TestCase
         $record = new Record();
         $record->parent_function = null;
         $this->assertFalse($record->hasParent());
+
+        $record = new Record();
+        $record->parent_function = 'hogehoge';
+        $this->assertTrue($record->hasParent());
     }
 }
